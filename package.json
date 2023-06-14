@@ -1,0 +1,25 @@
+{
+	"name": "@eunbae/react-library-ex",
+	"private": true,
+	"version": "0.0.1",
+	"description": "react library ex",
+	"module": "dist/index.js",
+	"main": "dist/index.js",
+	"type": "module",
+	"scripts": {
+		"dev": "vite",
+		"build": "tsc && vite build",
+		"preview": "vite preview",
+		"publish:npm": "rm -rf dist && mkdir dist && vite src/lib -d dist --copy-files"
+	},
+	"dependencies": {
+		"path": "^0.12.7",
+		"preact": "^10.13.2"
+	},
+	"devDependencies": {
+		"@preact/preset-vite": "^2.5.0",
+		"@types/node": "^20.3.1",
+		"typescript": "^5.0.2",
+		"vite": "^4.3.9"
+	}
+}
