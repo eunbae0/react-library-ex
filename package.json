@@ -1,6 +1,6 @@
 {
 	"name": "@eunbae/react-library-ex",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"description": "react library ex",
 	"type": "module",
 	"main": "dist/index.umd.cjs",
