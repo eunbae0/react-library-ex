@@ -10,9 +10,9 @@ export default defineConfig({
 	build: {
 		lib: {
 			entry: path.resolve(__dirname, "src/lib/index.tsx"),
-			name: "MyLib",
+			name: "index",
 			// 적절한 확장자가 추가됩니다.
-			fileName: "my-lib",
+			fileName: "index",
 		},
 		rollupOptions: {
 			// 라이브러리에 포함하지 않을 디펜던시를 명시해주세요
