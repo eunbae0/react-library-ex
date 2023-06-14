@@ -1,10 +1,11 @@
-import { render } from "preact";
-import { TestComponent } from "../dist/my-lib.js";
+import ReactDOM from "react-dom";
+import { TestComponent, Test2Component } from "../dist";
+import React from "react";
 
-render(
+ReactDOM.render(
 	<>
 		<TestComponent />
-		<TestComponent />
+		<Test2Component />
 	</>,
 	document.getElementById("root") as HTMLElement
 );
