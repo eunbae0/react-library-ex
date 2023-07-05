@@ -22,6 +22,6 @@
 		"noUnusedParameters": true,
 		"noFallthroughCasesInSwitch": true
 	},
-	"include": ["src/lib/**/*.tsx"],
+	"include": ["packages/first_project/src/lib/**/*.tsx"],
 	"references": [{ "path": "./tsconfig.node.json" }]
 }
